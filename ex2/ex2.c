@@ -21,5 +21,6 @@ int main() {
   printf("Numero apos a modificacao do ponteiro do ponteiro: \n");
   printf("%i \n", * numero_inteiro);
 
+  free(numero_inteiro);
   return 0;
 }
